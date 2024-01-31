@@ -1,0 +1,436 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+body {
+  overflow-x: hidden;
+}
+
+#landing {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://us.123rf.com/450wm/virtosmedia/virtosmedia2302/virtosmedia230217886/198358954-beautiful-sunset-over-lavender-fields-in-provence-france.jpg?ver=6");
+  background-size: cover;
+  margin-bottom: 60vh;
+}
+
+#heading {
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  font-family: Cormorant Infant;
+  max-width: 50vw;
+  position: relative;
+  left: 25%;
+  top: 20%;
+}
+
+#bottle {
+  height: 95%;
+  position: relative;
+  top: 37%;
+  left: 42%;
+  z-index: +1;
+  transition: transform 1s ease;
+}
+
+#bottle:hover {
+  transform: scale(1.1);
+}
+
+#grapes {
+  height: 45%;
+  position: relative;
+  top: 35%;
+  left: 20%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  justify-content: space-around;
+  margin-left: 2.4vw;
+}
+
+#bottle2 {
+  height: 60vh;
+  position: relative;
+  left: 90%;
+  top: 18%;
+  transition: transform 1s ease;
+}
+
+#bottle2:hover {
+  transform: scale(1.1);
+}
+
+.box2 {
+  width: 42vw;
+  height: 70vh;
+}
+
+.box21 {
+  width: 42vw;
+  height: 100%;
+  background-image: url("https://assets-global.website-files.com/65699e45b970ed92644c62c4/6574273b7fab5803af569fc4_1%20(2).jpg");
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.subH {
+  font-size: 3.5rem;
+  font-family: Cormorant Infant;
+}
+
+#wmaking {
+  font-family: Plus Jakarta Sans, sans-serif;
+  line-height: 1.5rem;
+  color: #424242;
+}
+
+.read-more {
+  border: none;
+  background-color: #9c1243;
+  color: white;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 5px
+}
+
+.read-more:hover {
+  background-color: #000000;
+}
+
+.read-more:active {
+  transform: scale(0.97);
+}
+
+#hb {
+  font-size: 4rem;
+  text-align: center;
+  font-family: Cormorant Infant;
+  max-width: 50vw;
+  position: relative;
+  left: 25%;
+  top: 20%;
+}
+
+.container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.btlg-2 {
+  width: 30%;
+  height: 80vh;
+
+}
+
+.btlg-2>img {
+  margin: 5%;
+  height: 45%;
+  width: 90%;
+}
+
+.btlg {
+  width: 30%;
+  height: 80vh;
+  background-color: #e8e8e8;
+
+}
+
+.btlg>img {
+  margin-top: 5%;
+  margin-left: 40%;
+  height: 60%;
+  transition: transform 1s ease;
+}
+
+.btlg>img:hover {
+  transform: scale(1.1);
+}
+
+.bt-tag {
+  /* margin-left: 7rem; */
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 2rem;
+  font-family: Cormorant Infant;
+}
+
+.tag2 {
+  margin-left: 8.5rem;
+}
+
+.pr-tag {
+  color: #9c1243;
+  font-family: sans-serif;
+  display: block;
+  text-align: center;
+}
+
+
+#twn {
+  max-height: 30vh;
+  max-width: 100vw;
+  font-size: 10rem;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  color: #9c1243;
+}
+
+.container-3 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.bt-sec {
+  height: 100vh;
+  width: 30%;
+}
+
+#SVW {
+  font-size: 3.5rem;
+
+}
+
+#intro {
+  line-height: 2rem;
+
+}
+
+.bt-sec>img {
+  height: 90vh;
+  margin-left: 30%;
+  position: relative;
+  top: -15%;
+}
+
+.awh {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.sawh {
+  font-family: sans-serif;
+}
+
+.grid-container {
+  height: 155vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.grid-item {
+  width: 45%;
+}
+
+.grid-item>img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.g-i-1 {
+  height: 50%;
+}
+
+.g-i-3 {
+  position: relative;
+  top: -20%;
+}
+
+.pr-2 {
+  margin-top: 10%;
+}
+
+.bt-2 {
+  margin: 5%;
+}
+
+.r-m-2 {
+  margin-left: 5%;
+}
+
+/* responsive */
+@media screen and (max-width: 768px) {
+  #bottle {
+    height: 75%;
+  }
+
+  #wmaking {
+    font-size: .8rem;
+  }
+
+  #grapes {
+    height: 30%;
+  }
+
+  .subH {
+    font-size: 2rem;
+  }
+
+  #twn {
+    font-size: 6rem;
+  }
+
+  .awh {
+    font-size: 1.5rem;
+  }
+
+  #SVW {
+    font-size: 2.5rem;
+
+  }
+
+  .btlg-2>img {
+    height: 40%;
+  }
+
+  .bt-2 {
+    font-size: 1rem;
+  }
+
+  .pr-tag {
+    font-size: .7rem;
+  }
+
+  #hb {
+    font-size: 2rem;
+  }
+
+  #intro {
+    line-height: 1.2rem;
+    font-size: .8rem;
+    font-family: sans-serif;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  #heading {
+    font-size: 2.5rem;
+    position: relative;
+    left: 25%;
+    top: 20%;
+  }
+
+  #bottle {
+    height: 65%;
+  }
+
+  .container {
+    height: auto;
+    width: 85vw;
+  }
+
+  .box2 {
+    width: 95%;
+  }
+
+  #bottle2 {
+    height: 45vh;
+    position: relative;
+    left: 90%;
+    top: 30%;
+  }
+
+  #wmaking {
+    line-height: 1rem;
+    font-size: smaller;
+  }
+
+  .read-more {
+    padding: .6rem;
+  }
+
+  #hb {
+    position: relative;
+    left: 1%;
+    max-width: 95vw;
+    font-size: 1.6rem;
+    margin: 2% 0;
+  }
+
+  #grapes {
+    height: 22%;
+  }
+
+  .subH {
+    font-size: 1.5rem;
+  }
+
+  #twn {
+    font-size: 4rem;
+  }
+
+  .awh {
+    font-size: 1.5rem;
+  }
+
+  #SVW {
+    font-size: 2rem;
+
+  }
+
+  .btlg {
+    width: 90%;
+
+  }
+
+  .bt-sec {
+    height: 75vh;
+    width: 90%;
+  }
+
+  .bt-sec>img {
+    height: 70vh;
+    margin-left: 15%;
+    position: relative;
+    top: 0%;
+  }
+
+  .awh {
+    font-size: 1.8rem;
+  }
+
+  .btlg-2 {
+    height: 80vh;
+    width: 90%;
+  }
+
+  .grid-container {
+    height: auto;
+    text-align: center;
+  }
+
+  .grid-item {
+    width: 90%;
+  }
+
+  .g-i-1 {
+    height: auto;
+  }
+
+  .g-i-3 {
+    position: relative;
+    top: 0%;
+  }
+
+  .pr-2 {
+    margin-top: 10%;
+  }
+}
